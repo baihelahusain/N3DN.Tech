@@ -14,3 +14,7 @@ python-dotenv
 google-generativeai
 scipy
 streamlit_lottie
+
+# Additional dependencies (ensure these are installed)
+shapely
+fiona
