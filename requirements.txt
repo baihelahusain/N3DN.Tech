@@ -9,7 +9,7 @@ geopandas
 matplotlib
 pycountry
 altair
-plotlys
+plotly
 python-dotenv
 google-generativeai
 scipy
