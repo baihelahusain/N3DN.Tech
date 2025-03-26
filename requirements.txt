@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+folium
+streamlit-folium
+requests
+beautifulsoup4
+geopandas
+matplotlib
+pycountry
+altair
+plotlys
+python-dotenv
+google-generativeai
+scipy
+streamlit_lottie
