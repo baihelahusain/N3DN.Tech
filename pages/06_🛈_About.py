@@ -41,7 +41,7 @@ with st.sidebar:
     # Navigation widget for your top pages
 
     # Animation section: mountain-themed animation for "on top"
-    st.markdown("### Connects with Neural Net Ninjas")
+    st.markdown("### Connect with Neural Net Ninjas")
     # Replace the URL below with any mountain top or summit-themed Lottie animation.
     lottie_animation = load_lottie_url("https://lottie.host/e3ebc585-ff11-467d-b7df-06c8159aabe8/2EotAwBySN.json")
     if lottie_animation:
@@ -53,7 +53,7 @@ with st.sidebar:
 
 def main():
     # Title styled similarly to the main dashboard
-    st.markdown('<p class="main-header">About N3DN.Tech</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size: 3.0rem; font-weight: bold; color: #6eb52f;">About N3DN.Tech</p>', unsafe_allow_html=True)
     
     # Sub-header with an emoji for extra flair
     st.markdown('<p class="sub-header">Empowering Tech Careers 🚀</p>', unsafe_allow_html=True)
