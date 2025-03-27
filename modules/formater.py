@@ -21,7 +21,7 @@ class Footer:
 
     def __init__(self):
         self.url = "https://serpapi.com/"
-        #self.text = "Powered by SerpApi"
+        self.text = "Powered by SerpApi"
 
     def footer(self):
         footer_html = f"""
