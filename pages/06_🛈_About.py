@@ -1,4 +1,6 @@
 import streamlit as st
+import requests
+from streamlit_lottie import st_lottie
 
 # Custom CSS styling similar to 01_🖥️_Dashboard.py
 st.markdown("""
