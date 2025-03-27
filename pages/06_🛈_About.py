@@ -28,7 +28,24 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 #00000---------sidebar-----------------
+def load_lottie_url(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
 
+# All sidebar content is defined inside this block.
+with st.sidebar:
+    # Navigation widget for your top pages
+
+    # Animation section: mountain-themed animation for "on top"
+    st.markdown("### Connects with Neural Net Ninjas")
+    # Replace the URL below with any mountain top or summit-themed Lottie animation.
+    lottie_animation = load_lottie_url("https://lottie.host/e3ebc585-ff11-467d-b7df-06c8159aabe8/2EotAwBySN.json")
+    if lottie_animation:
+        st_lottie(lottie_animation, height=200, key="mountain_anim")
+    else:
+        st.error("Animation could not be loaded.")
 
 #9------------end here ----------------
 
